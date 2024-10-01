@@ -1,0 +1,83 @@
+#!/bin/sh
+actualname="AEL"
+version="0.10.1"
+filename="${actualname}-${version}"
+extension=".tar.gz"
+source="https://github.com/Wintermute0110/plugin.program.${actualname}.dev/archive/refs/tags/${version}${extension}"
+sumUrl=""
+
+#functions
+
+do_get(){
+	"${myBuildHelpersDir}"/myBuildGet.sh "${source}" "${myBuildSourceDest}"
+	mv "${myBuildSourceDest}/${version}.tar.gz" "${myBuildSourceDest}/${filename}${extension}"
+	return "$?"
+}
+
+do_extract(){
+	"${myBuildHelpersDir}"/myBuildExtract.sh "${myBuildSourceDest}/${filename}${extension}" "${myBuildExtractDest}"
+	#mv "${myBuildExtractDest}/plugin.program.advanced.emulator.launcher-${version}" "${myBuildExtractDest}/plugin.program.advanced.emulator.launcher"
+	return "$?"
+}
+
+
+do_build(){
+#here you put commands like configure and make
+cd "${myBuildExtractDest}/plugin.program.${actualname}.dev-${version}"
+patch -p1 < "${myBuildHome}/myBuildsHost/kodi-AEL/const.py.patch"
+sed -i "s#src = os.path.join(current_dir, '.git/refs/heads/master')##g" ./make_release.py
+sed -i "s#shutil.copyfile(src, dst)##g" ./make_release.py
+#python3 ./make_release.py
+return "$?"
+}
+
+do_install(){
+#here you put the installation commands, like make install
+cd "${myBuildExtractDest}/plugin.program.${actualname}.dev-${version}"
+
+mkdir -p "/home/kodi/.kodi/addons"
+
+mkdir -p "/home/kodi/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher"
+
+cp -a "${myBuildHome}/myBuildsHost/kodi-AEL/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/categories.xml" "/home/kodi/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/categories.xml"
+cp -a "${myBuildHome}/myBuildsHost/kodi-AEL/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/settings.xml" "/home/kodi/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/settings.xml"
+
+
+chown -R kodi:kodi "/home/kodi/.kodi"
+#cp -a "${myBuildExtractDest}/plugin.program.${actualname}.dev-${version}/plugin.program.AEL" "/home/kodi/.kodi/addons/"
+cp -a "${myBuildExtractDest}/plugin.program.${actualname}.dev-${version}" "/home/kodi/.kodi/addons/plugin.program.advanced.emulator.launcher"
+return "$?"
+}
+
+do_package(){
+#here you package the files
+cp -a "${myBuildsDir}/${actualname}/${actualname}.control" "${CONTDIR}/control"
+printf "Architecture: %s\n" "$(printf "%s\n" "${TARGET}" | cut -d "-" -f 1-2)" >> "${CONTDIR}/control"
+
+printf "2.0" > "${BUILDDIR}/debian-binary"
+
+cd "${CONTDIR}"
+tar --numeric-owner --group=0 --owner=0 -czf "${BUILDDIR}/control.tar.gz" ./*
+
+cd "${SYSROOT}"
+tar --numeric-owner --group=0 --owner=0 -czf "${BUILDDIR}/data.tar.gz" ./*
+
+cd "${BUILDDIR}"
+tar --numeric-owner --group=0 --owner=0 -czf "${PKGDIR}/${actualname}_${version}.$(printf "%s" "${TARGET}" | cut -d "-" -f 1-2).ipk" ./debian-binary ./control.tar.gz ./data.tar.gz
+
+rm -rf "${CONTDIR}"
+rm -rf "${SYSROOT}"
+mkdir -p "${CONTDIR}"
+mkdir -p "${SYSROOT}"
+rm -f "${BUILDDIR}/debian-binary"
+rm -f "${BUILDDIR}/control.tar.gz"
+rm -f "${BUILDDIR}/data.tar.gz"
+
+cd "${myBuildHome}"
+return "$?"
+}
+
+if [ "$myBuildDoNotCallMainFunction" != "1" ]; then
+#main code goes here
+"${myBuildHelpersDir}"/argumentHelper.sh "$1" "$0" "$2" "$3"
+fi

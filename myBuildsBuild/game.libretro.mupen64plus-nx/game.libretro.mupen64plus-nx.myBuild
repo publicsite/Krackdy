@@ -1,0 +1,92 @@
+#!/bin/sh
+actualname="game.libretro.mupen64plus-nx"
+version="master"
+filename="${actualname}-${version}"
+extension=".tar.gz"
+sumUrl=""
+
+#functions
+
+do_get(){
+	cd "${myBuildSourceDest}"
+	git clone https://github.com/kodi-game/game.libretro.mupen64plus-nx
+
+	return "$?"
+}
+
+do_extract(){
+	mkdir "${myBuildExtractDest}/kodiGameAddons"
+	cp -a "${myBuildSourceDest}/${actualname}" "${myBuildExtractDest}/kodiGameAddons/"
+
+	return "$?"
+}
+
+
+do_build(){
+#here you put commands like configure and make
+
+
+
+
+     	mkdir -p "${myBuildExtractDest}/kodiGameAddons/${actualname}-depends-build"
+     	cd "${myBuildExtractDest}/kodiGameAddons/${actualname}-depends-build"
+
+	cmake "${myBuildExtractDest}/kodiGameAddons/${actualname}/depends/common/mupen64plus-nx" \
+	-DCORE_SYSTEM_NAME=linux
+
+	make
+
+     	mkdir -p "${myBuildExtractDest}/kodiGameAddons/${actualname}-build"
+     	cd "${myBuildExtractDest}/kodiGameAddons/${actualname}-build"
+
+	cmake -DADDONS_TO_BUILD=game.* \
+     	-DCMAKE_BUILD_TYPE=Debug \
+     	-DCMAKE_INSTALL_PREFIX=${SYSROOT}/home/kodi/.kodi/addons \
+     	-DPACKAGE_ZIP=1 \
+     	"${myBuildExtractDest}/kodiGameAddons/${actualname}"
+
+	make
+
+return "$?"
+}
+
+do_install(){
+#here you put the installation commands, like make install
+
+	cd "${myBuildExtractDest}/kodiGameAddons/${actualname}-build"
+	make install
+return "$?"
+}
+
+do_package(){
+#here you package the files
+cp -a "${myBuildsDir}/${actualname}/${actualname}.control" "${CONTDIR}/control"
+printf "Architecture: %s\n" "$(printf "%s\n" "${TARGET}" | cut -d "-" -f 1-2)" >> "${CONTDIR}/control"
+
+printf "2.0" > "${BUILDDIR}/debian-binary"
+
+cd "${CONTDIR}"
+tar --numeric-owner --group=0 --owner=0 -czf "${BUILDDIR}/control.tar.gz" ./*
+
+cd "${SYSROOT}"
+tar --numeric-owner --group=0 --owner=0 -czf "${BUILDDIR}/data.tar.gz" ./*
+
+cd "${BUILDDIR}"
+tar --numeric-owner --group=0 --owner=0 -czf "${PKGDIR}/${actualname}_${version}.$(printf "%s" "${TARGET}" | cut -d "-" -f 1-2).ipk" ./debian-binary ./control.tar.gz ./data.tar.gz
+
+rm -rf "${CONTDIR}"
+rm -rf "${SYSROOT}"
+mkdir -p "${CONTDIR}"
+mkdir -p "${SYSROOT}"
+rm -f "${BUILDDIR}/debian-binary"
+rm -f "${BUILDDIR}/control.tar.gz"
+rm -f "${BUILDDIR}/data.tar.gz"
+
+cd "${myBuildHome}"
+return "$?"
+}
+
+if [ "$myBuildDoNotCallMainFunction" != "1" ]; then
+#main code goes here
+"${myBuildHelpersDir}"/argumentHelper.sh "$1" "$0" "$2" "$3"
+fi

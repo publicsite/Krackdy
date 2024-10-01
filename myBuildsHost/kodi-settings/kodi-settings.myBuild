@@ -1,0 +1,83 @@
+#!/bin/sh
+actualname="service.libreelec.settings"
+version="master"
+filename="${actualname}-${version}"
+extension=".tar.gz"
+source="https://github.com/LibreELEC/service.libreelec.settings/archive/refs/heads/${version}${extension}"
+sumUrl=""
+
+#functions
+
+do_get(){
+	"${myBuildHelpersDir}"/myBuildGet.sh "${source}" "${myBuildSourceDest}"
+	mv "${myBuildSourceDest}/master.tar.gz" "${myBuildSourceDest}/${filename}${extension}"
+	return "$?"
+}
+
+do_extract(){
+	"${myBuildHelpersDir}"/myBuildExtract.sh "${myBuildSourceDest}/${filename}${extension}" "${myBuildExtractDest}"
+	mv "${myBuildExtractDest}/${actualname}-${version}" "${myBuildExtractDest}/${actualname}"
+	return "$?"
+}
+
+
+do_build(){
+#here you put commands like configure and make
+return "$?"
+}
+
+do_install(){
+#here you put the installation commands, like make install
+mkdir -p "/home/kodi/.kodi/addons/service.libreelec.settings"
+chown -R kodi:kodi "/home/kodi/.kodi"
+
+cd "${myBuildExtractDest}/${actualname}"
+
+	cp -R resources /home/kodi/.kodi/addons/service.libreelec.settings
+	cp COPYING /home/kodi/.kodi/addons/service.libreelec.settings
+	cp addon.xml /home/kodi/.kodi/addons/service.libreelec.settings
+	cp *.py /home/kodi/.kodi/addons/service.libreelec.settings
+	sed -e "s,@ADDONNAME@,service.libreelec.settings,g" \
+	    -e "s,@ADDONVERSION@,0.0.0,g" \
+	    -e "s,@DISTRONAME@,LibreELEC,g" \
+	    -i /home/kodi/.kodi/addons/service.libreelec.settings/addon.xml
+	sed -e "s,@DISTRONAME@,LibreELEC,g" \
+	    -e "s,@ROOT_PASSWORD@,root,g" \
+	    -i /home/kodi/.kodi/addons/service.libreelec.settings/resources/language/*/*.po
+
+##cp -a "${myBuildExtractDest}/${actualname}" "/home/kodi/.kodi/addons/"
+return "$?"
+}
+
+do_package(){
+#here you package the files
+cp -a "${myBuildsDir}/${actualname}/${actualname}.control" "${CONTDIR}/control"
+printf "Architecture: %s\n" "$(printf "%s\n" "${TARGET}" | cut -d "-" -f 1-2)" >> "${CONTDIR}/control"
+
+printf "2.0" > "${BUILDDIR}/debian-binary"
+
+cd "${CONTDIR}"
+tar --numeric-owner --group=0 --owner=0 -czf "${BUILDDIR}/control.tar.gz" ./*
+
+cd "${SYSROOT}"
+tar --numeric-owner --group=0 --owner=0 -czf "${BUILDDIR}/data.tar.gz" ./*
+
+cd "${BUILDDIR}"
+tar --numeric-owner --group=0 --owner=0 -czf "${PKGDIR}/${actualname}_${version}.$(printf "%s" "${TARGET}" | cut -d "-" -f 1-2).ipk" ./debian-binary ./control.tar.gz ./data.tar.gz
+
+rm -rf "${CONTDIR}"
+rm -rf "${SYSROOT}"
+mkdir -p "${CONTDIR}"
+mkdir -p "${SYSROOT}"
+rm -f "${BUILDDIR}/debian-binary"
+rm -f "${BUILDDIR}/control.tar.gz"
+rm -f "${BUILDDIR}/data.tar.gz"
+
+cd "${myBuildHome}"
+return "$?"
+}
+
+if [ "$myBuildDoNotCallMainFunction" != "1" ]; then
+#main code goes here
+"${myBuildHelpersDir}"/argumentHelper.sh "$1" "$0" "$2" "$3"
+fi

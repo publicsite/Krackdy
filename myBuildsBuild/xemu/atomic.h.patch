@@ -1,0 +1,14 @@
+--- a/include/qemu/atomic.h	2023-01-25 19:48:05.657854538 +0000
++++ b/include/qemu/atomic.h	2023-01-25 21:00:36.438850754 +0000
+@@ -110,11 +110,7 @@
+  * Sparc we always force the use of sparcv9 in configure. MIPS n32 (ILP32) &
+  * n64 (LP64) ABIs are both detected using __mips64.
+  */
+-#if defined(__x86_64__) || defined(__sparc__) || defined(__mips64)
+ # define ATOMIC_REG_SIZE  8
+-#else
+-# define ATOMIC_REG_SIZE  sizeof(void *)
+-#endif
+ 
+ /* Weak atomic operations prevent the compiler moving other
+  * loads/stores past the atomic operation load/store. However there is

@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<advanced_emulator_launcher version="1">
+<control>
+  <update_timestamp>1726000039.3605359</update_timestamp>
+</control>
+<category>
+  <id>0a5282c47189b889227a1568f0a9d85b</id>
+  <m_name>Games</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <finished>False</finished>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_trailer />
+</category>
+<category>
+  <id>cba5ede3ffcc36d176acccd87362ba6c</id>
+  <m_name>Programs</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <finished>False</finished>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_trailer />
+</category>
+<launcher>
+  <id>d2226a45a1b100a0fc6e59d49f21cd37</id>
+  <m_name>Atari 2600</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Atari 2600</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_stella.sh</application>
+  <args>&quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/atari-2600/</rompath>
+  <romext>zip</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_Atari_2600_d2226a</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725997476.5848224</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/atari-2600/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/atari-2600/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/atari-2600/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/atari-2600/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/atari-2600/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/atari-2600/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/atari-2600/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/atari-2600/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/atari-2600/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/atari-2600/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/atari-2600/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/atari-2600/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/atari-2600/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>b3d2c7b7d0778e74d4005f7014e3f3a7</id>
+  <m_name>Gameboy</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Nintendo GameBoy</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>mgba &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/gameboy/</rompath>
+  <romext>gb</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_Gameboy_b3d2c7</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1726000001.6415737</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/gameboy/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/gameboy/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/gameboy/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/gameboy/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/gameboy/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/gameboy/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/gameboy/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/gameboy/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/gameboy/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/gameboy/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/gameboy/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/gameboy/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/gameboy/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>de2c8b79090cc60167714a7ff4a7f810</id>
+  <m_name>Gameboy Advance</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Nintendo GameBoy Advance</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>mgba &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/gameboy-advance/</rompath>
+  <romext>gb</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_Gameboy_Advance_de2c8b</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1726000021.6237478</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/gameboy-advance/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/gameboy-advance/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/gameboy-advance/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/gameboy-advance/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/gameboy-advance/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/gameboy-advance/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/gameboy-advance/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/gameboy-advance/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/gameboy-advance/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/gameboy-advance/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/gameboy-advance/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/gameboy-advance/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/gameboy-advance/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>602f60bb866fc29700a8d78cb0b2d616</id>
+  <m_name>Gameboy Colour</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Nintendo GameBoy Color</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>mgba &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/gameboy-colour/</rompath>
+  <romext>gb|gbc</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_Gameboy_Colour_602f60</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1726000039.360492</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/gamebox-colour/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/gamebox-colour/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/gamebox-colour/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/gamebox-colour/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/gamebox-colour/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/gamebox-colour/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/gamebox-colour/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/gamebox-colour/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/gamebox-colour/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/gamebox-colour/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/gamebox-colour/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/gamebox-colour/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/gamebox-colour/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>f842797faf743cff653286f4356f6367</id>
+  <m_name>Linux Native</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Unknown</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_linux-native.sh</application>
+  <args>&quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/linux-native/</rompath>
+  <romext>linux-native</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_Linux_Native_f84279</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725998091.6201868</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/linux-native/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/linux-native/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/linux-native/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/linux-native/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/linux-native/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/linux-native/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/linux-native/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/linux-native/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/linux-native/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/linux-native/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/linux-native/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/linux-native/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/linux-native/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>6d9c1f07bbe4482ff450e9f6b309c064</id>
+  <m_name>MAME</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>MAME</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>mame2010 &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/mame/</rompath>
+  <romext>zip</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_MAME_6d9c1f</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725998242.110798</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/mame/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/mame/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/mame/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/mame/cabinets</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/mame/cpanels</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/mame/PCBs</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/mame/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/mame/marquees</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/mame/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/mame/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/mame/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/mame/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/mame/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>6dc9aca711f7d696a9d577dce6af892b</id>
+  <m_name>N64</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Nintendo 64</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_mupen64.sh</application>
+  <args>&quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-n64/</rompath>
+  <romext>z64</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_N64_6dc9ac</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725998430.3867378</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/nintendo-n64/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/nintendo-n64/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/nintendo-n64/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/nintendo-n64/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/nintendo-n64/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/nintendo-n64/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/nintendo-n64/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/nintendo-n64/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/nintendo-n64/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/nintendo-n64/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/nintendo-n64/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/nintendo-n64/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/nintendo-n64/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>57965528d38d141e116b6d8505ef6522</id>
+  <m_name>NES</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Nintendo NES</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>nestopia &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-nes/</rompath>
+  <romext>zip|cue</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_NES_579655</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725998594.1368403</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/nintendo-nes/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/nintendo-nes/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/nintendo-nes/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/nintendo-nes/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/nintendo-nes/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/nintendo-nes/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/nintendo-nes/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/nintendo-nes/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/nintendo-nes/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/nintendo-nes/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/nintendo-nes/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/nintendo-nes/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/nintendo-nes/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>b4d2080c82b62c4c186e3cc07fc39a05</id>
+  <m_name>Network Connections</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Unknown</platform>
+  <categoryID>cba5ede3ffcc36d176acccd87362ba6c</categoryID>
+  <application>/usr/bin/run_connman.sh</application>
+  <args />
+  <rompath />
+  <romext />
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext />
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725992259.323856</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox />
+  <path_title />
+  <path_snap />
+  <path_boxfront />
+  <path_boxback />
+  <path_cartridge />
+  <path_fanart />
+  <path_banner />
+  <path_clearlogo />
+  <path_flyer />
+  <path_map />
+  <path_manual />
+  <path_trailer />
+</launcher>
+<launcher>
+  <id>5e42781d0d8569c18fee079574ea0259</id>
+  <m_name>OG XBOX</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Microsoft Xbox</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_xemu.sh</application>
+  <args>&quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/microsoft-og-xbox/</rompath>
+  <romext>iso|xiso</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_OG_XBOX_5e4278</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725998331.3403552</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/microsoft-og-xbox/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/microsoft-og-xbox/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/microsoft-og-xbox/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/microsoft-og-xbox/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/microsoft-og-xbox/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/microsoft-og-xbox/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/microsoft-og-xbox/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/microsoft-og-xbox/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/microsoft-og-xbox/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/microsoft-og-xbox/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/microsoft-og-xbox/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/microsoft-og-xbox/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/microsoft-og-xbox/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>3cfe0455970940a7071297abc9698517</id>
+  <m_name>Playstation 1</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Sony PlayStation</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>pcsx_rearmed &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/sony-psx/</rompath>
+  <romext>iso</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_Playstation_1_3cfe04</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725999085.9581895</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/sony-psx/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/sony-psx/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/sony-psx/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/sony-psx/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/sony-psx/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/sony-psx/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/sony-psx/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/sony-psx/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/sony-psx/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/sony-psx/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/sony-psx/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/sony-psx/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/sony-psx/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>b757adf8bc3cd987ba7c312a01d2048c</id>
+  <m_name>SNES</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Nintendo SNES</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>snes9x &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/nintendo-snes/</rompath>
+  <romext>smc</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_SNES_b757ad</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725998762.1653583</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/nintendo-snes/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/nintendo-snes/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/nintendo-snes/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/nintendo-snes/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/nintendo-snes/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/nintendo-snes/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/nintendo-snes/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/nintendo-snes/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/nintendo-snes/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/nintendo-snes/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/nintendo-snes/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/nintendo-snes/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/nintendo-snes/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>782f77cfc89ff93c7df5218d7a5fe312</id>
+  <m_name>Sega Megadrive</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Sega Mega Drive</platform>
+  <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
+  <application>/usr/bin/run_retroarch.sh</application>
+  <args>genesis_plus_gx &quot;$rom$&quot;</args>
+  <rompath>/home/kodi/AEL-ROMs/sega-genesis/</rompath>
+  <romext>bin</romext>
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext>roms_Games_Sega_Megadrive_782f77</roms_base_noext>
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725998924.493355</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox>/home/kodi/AEL-assets/sega-genesis/3dboxes</path_3dbox>
+  <path_title>/home/kodi/AEL-assets/sega-genesis/titles</path_title>
+  <path_snap>/home/kodi/AEL-assets/sega-genesis/snaps</path_snap>
+  <path_boxfront>/home/kodi/AEL-assets/sega-genesis/boxfronts</path_boxfront>
+  <path_boxback>/home/kodi/AEL-assets/sega-genesis/boxbacks</path_boxback>
+  <path_cartridge>/home/kodi/AEL-assets/sega-genesis/cartridges</path_cartridge>
+  <path_fanart>/home/kodi/AEL-assets/sega-genesis/fanarts</path_fanart>
+  <path_banner>/home/kodi/AEL-assets/sega-genesis/banners</path_banner>
+  <path_clearlogo>/home/kodi/AEL-assets/sega-genesis/clearlogos</path_clearlogo>
+  <path_flyer>/home/kodi/AEL-assets/sega-genesis/flyers</path_flyer>
+  <path_map>/home/kodi/AEL-assets/sega-genesis/maps</path_map>
+  <path_manual>/home/kodi/AEL-assets/sega-genesis/manuals</path_manual>
+  <path_trailer>/home/kodi/AEL-assets/sega-genesis/trailers</path_trailer>
+</launcher>
+<launcher>
+  <id>0364c52e79a8162ee19481ed6bc2355b</id>
+  <m_name>Terminal Emulator</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Unknown</platform>
+  <categoryID>cba5ede3ffcc36d176acccd87362ba6c</categoryID>
+  <application>/usr/bin/run_terminal.sh</application>
+  <args />
+  <rompath />
+  <romext />
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext />
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725993699.0186214</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox />
+  <path_title />
+  <path_snap />
+  <path_boxfront />
+  <path_boxback />
+  <path_cartridge />
+  <path_fanart />
+  <path_banner />
+  <path_clearlogo />
+  <path_flyer />
+  <path_map />
+  <path_manual />
+  <path_trailer />
+</launcher>
+<launcher>
+  <id>81d30de9b13040622dfed89e06851fa9</id>
+  <m_name>Volume Control</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Unknown</platform>
+  <categoryID>cba5ede3ffcc36d176acccd87362ba6c</categoryID>
+  <application>/usr/bin/run_volumecontrol.sh</application>
+  <args />
+  <rompath />
+  <romext />
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext />
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725994734.3029642</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox />
+  <path_title />
+  <path_snap />
+  <path_boxfront />
+  <path_boxback />
+  <path_cartridge />
+  <path_fanart />
+  <path_banner />
+  <path_clearlogo />
+  <path_flyer />
+  <path_map />
+  <path_manual />
+  <path_trailer />
+</launcher>
+<launcher>
+  <id>bab8fc91617234401219cc4ba2f5535a</id>
+  <m_name>Web Browser</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Unknown</platform>
+  <categoryID>cba5ede3ffcc36d176acccd87362ba6c</categoryID>
+  <application>/usr/bin/run_webbrowser.sh</application>
+  <args />
+  <rompath />
+  <romext />
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext />
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1725991959.3930976</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox />
+  <path_title />
+  <path_snap />
+  <path_boxfront />
+  <path_boxback />
+  <path_cartridge />
+  <path_fanart />
+  <path_banner />
+  <path_clearlogo />
+  <path_flyer />
+  <path_map />
+  <path_manual />
+  <path_trailer />
+</launcher>
+</advanced_emulator_launcher>

@@ -1,0 +1,56 @@
+<settings version="2">
+    <setting id="scan_recursive">true</setting>
+    <setting id="scan_ignore_bios">true</setting>
+    <setting id="scan_ignore_scrap_title">true</setting>
+    <setting id="scan_ignore_scrap_title_MAME" default="true">false</setting>
+    <setting id="scan_clean_tags" default="true">false</setting>
+    <setting id="scan_update_NFO_files" default="true">false</setting>
+    <setting id="scan_metadata_policy">3</setting>
+    <setting id="scan_asset_policy" default="true">0</setting>
+    <setting id="game_selection_mode">1</setting>
+    <setting id="asset_selection_mode">1</setting>
+    <setting id="scraper_metadata" default="true">0</setting>
+    <setting id="scraper_asset" default="true">0</setting>
+    <setting id="scraper_metadata_MAME" default="true">0</setting>
+    <setting id="scraper_asset_MAME" default="true">0</setting>
+    <setting id="scraper_mobygames_apikey" default="true" />
+    <setting id="scraper_screenscraper_ssid" default="true" />
+    <setting id="scraper_screenscraper_sspass" default="true" />
+    <setting id="scraper_screenscraper_region" default="true">0</setting>
+    <setting id="scraper_screenscraper_language" default="true">0</setting>
+    <setting id="io_retroarch_sys_dir" default="true" />
+    <setting id="io_retroarch_only_mandatory">true</setting>
+    <setting id="audit_unknown_roms" default="true">0</setting>
+    <setting id="audit_pclone_assets">true</setting>
+    <setting id="audit_nointro_dir" default="true" />
+    <setting id="audit_redump_dir" default="true" />
+    <setting id="display_category_mode" default="true">0</setting>
+    <setting id="display_launcher_notify">true</setting>
+    <setting id="display_hide_finished" default="true">false</setting>
+    <setting id="display_launcher_roms">true</setting>
+    <setting id="display_rom_in_fav">true</setting>
+    <setting id="display_nointro_stat">true</setting>
+    <setting id="display_fav_status">true</setting>
+    <setting id="display_hide_favs" default="true">false</setting>
+    <setting id="display_hide_collections" default="true">false</setting>
+    <setting id="display_hide_vlaunchers" default="true">false</setting>
+    <setting id="display_hide_AEL_scraper" default="true">false</setting>
+    <setting id="display_hide_recent" default="true">false</setting>
+    <setting id="display_hide_mostplayed" default="true">false</setting>
+    <setting id="display_hide_utilities" default="true">false</setting>
+    <setting id="display_hide_g_reports" default="true">false</setting>
+    <setting id="categories_asset_dir" default="true" />
+    <setting id="launchers_asset_dir" default="true" />
+    <setting id="favourites_asset_dir" default="true" />
+    <setting id="collections_asset_dir" default="true" />
+    <setting id="media_state_action" default="true">0</setting>
+    <setting id="delay_tempo">500</setting>
+    <setting id="suspend_audio_engine" default="true">false</setting>
+    <setting id="suspend_screensaver" default="true">false</setting>
+    <setting id="escape_romfile" default="true">false</setting>
+    <setting id="lirc_state">true</setting>
+    <setting id="show_batch_window" default="true">false</setting>
+    <setting id="windows_close_fds">true</setting>
+    <setting id="windows_cd_apppath">true</setting>
+    <setting id="log_level">2</setting>
+</settings>
