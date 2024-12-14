@@ -10,7 +10,7 @@ sleep 3
 
 # --- Run OG xemu ---
 echo "Running xemu ..."
-xemu -dvd_path "${1}" -fullscreen
+xemu -dvd_path "${1}" --full-screen
 sleep 3
 
 # --- Start KODI ---

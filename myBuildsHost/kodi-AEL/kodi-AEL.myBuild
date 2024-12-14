@@ -24,9 +24,9 @@ do_extract(){
 do_build(){
 #here you put commands like configure and make
 cd "${myBuildExtractDest}/plugin.program.${actualname}.dev-${version}"
-patch -p1 < "${myBuildHome}/myBuildsHost/kodi-AEL/const.py.patch"
-sed -i "s#src = os.path.join(current_dir, '.git/refs/heads/master')##g" ./make_release.py
-sed -i "s#shutil.copyfile(src, dst)##g" ./make_release.py
+#patch -p1 < "${myBuildHome}/myBuildsHost/kodi-AEL/const.py.patch"
+#sed -i "s#src = os.path.join(current_dir, '.git/refs/heads/master')##g" ./make_release.py
+#sed -i "s#shutil.copyfile(src, dst)##g" ./make_release.py
 #python3 ./make_release.py
 return "$?"
 }

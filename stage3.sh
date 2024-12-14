@@ -82,7 +82,6 @@ epiphany-browser onboard at-spi2-core openbox bluez-obexd python3-bluez bluez-fi
 libqt5webenginewidgets5 libqt5charts5 \
 retroarch sakura \
 mupen64plus-ui-console mupen64plus-video-all mupen64plus-rsp-all mupen64plus-input-all mupen64plus-audio-all \
-gngb \
 libslirp0 libpcap-dev
 
 #transmission-gtk \
@@ -143,7 +142,6 @@ tzdata
 #native linux games that use gamepad (list is 7 years old but nm)
 apt-get -m -y install a7xpg \
 dangen \
-defendguin \
 dodgindiamond2 \
 dreamchess \
 freedink \
@@ -263,7 +261,7 @@ mkdir /home/kodi/AEL-ROMs/linux-native
 cd /home/kodi/AEL-ROMs/linux-native
 printf "/usr/games/a7xpg" > a7xpg.linux-native
 printf "/usr/games/dangen" > dangen.linux-native
-which defendguin > defendguin.linux-native
+#which defendguin > defendguin.linux-native
 printf "/usr/games/dodgindiamond2" > dodgindiamond2.linux-native
 printf "/usr/games/dreamchess" > dreamchess.linux-native
 printf "/usr/games/freedink" > freedink.linux-native

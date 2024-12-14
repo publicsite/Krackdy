@@ -9,8 +9,12 @@ export myBuildSourceDest="${myBuildHome}/sourcedest"
 export myBuildExtractDest="${myBuildHome}/extractdest"
 export myBuildsDir="${myBuildHome}/myBuildsBuild"
 
-mkdir "$myBuildSourceDest"
-mkdir "$myBuildExtractDest"
+whoami="$(whoami)"
+
+sudo -S mkdir "$myBuildSourceDest"
+sudo -S chown -R $whoami:$whoami "$myBuildSourceDest"
+sudo -S mkdir "$myBuildExtractDest"
+sudo -S chown -R $whoami:$whoami "$myBuildExtractDest"
 
 export J="-j12"
 
@@ -26,7 +30,8 @@ export BUILD="$(gcc -v 2>&1 | grep "^Target: " | cut -c 9-)" #the toolchain we'r
 
 export SYSROOT="${myBuildHome}/rootfs" #the root dir
 
-mkdir "$SYSROOT"
+sudo mkdir "$SYSROOT"
+sudo -S chown -R $whoami:$whoami "$SYSROOT"
 
 export TEMP_SYSROOT="/"
 

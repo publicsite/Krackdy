@@ -110,8 +110,21 @@ cd "$thepwd"
 sudo apt-get install -y cmake kodi-addons-dev
 
 ##run build scripts in the outer rootfs
-echo "SET PASSWORD FOR USER BUILD"
+echo "SET PASSWORD FOR USER KODI"
 adduser kodi
+usermod -a -G sudo kodi
+
+if [ -f "/etc/sudoers" ]; then
+	mv /etc/sudoers /etc/sudoers.bak
+fi
+
+	echo "" > /etc/sudoers
+	echo "# Allow members of group sudo to execute any command" >> /etc/sudoers
+	echo "%sudo   ALL=(ALL:ALL) ALL" >> /etc/sudoers
+	echo "" >> /etc/sudoers
+	echo "# Allow anyone to shut the machine down" >> /etc/sudoers
+	echo "%users ALL = NOPASSWD:/usr/lib/${THEARCH}-linux-gnu/xfce4/session/xfsm-shutdown-helper" >> /etc/sudoers
+
 su kodi -c "/workdir/getEquiptmentBuild.sh /workdir"
 /workdir/installEquiptmentBuild.sh /workdir
 

@@ -10,7 +10,7 @@ sleep 3
 
 # --- Run mupen64 ---
 echo "Running Mupen64 ..."
-mupen64plus --resolution 1024x768 --windowed "${1}"
+mupen64plus --windowed --fullscreen --resolution 1024x768 --windowed "${1}"
 sleep 3
 
 # --- Start KODI ---

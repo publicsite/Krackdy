@@ -574,7 +574,7 @@ setfacl --restore=saved-permissions 2>/dev/null
 echo "Permissions all set."
 
 #autologin as user: kodi
-sed -i "s#/sbin/agetty -o '-p -- \\\\\\\\u'#/sbin/agetty --autologin kodi#g" 'usr/lib/systemd/system/getty@.service'
+sed -i 's#ExecStart=.*#ExecStart=/sbin/agetty --autologin kodi --noreset --noclear - ${TERM}#g' 'usr/lib/systemd/system/getty@.service'
 
 cd "${thepwd}"
 
