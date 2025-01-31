@@ -7,16 +7,21 @@
 echo "Stopping Kodi service ..."
 kodi-send --action="Quit"
 
-# --- Run mupen64 ---
+# --- Run volume control ---
+echo "Running antimicrox ..."
+antimicrox --hidden
 echo "Running onscreen keyboard"
 onboard &
 echo "Running pavucontrol ..."
 pavucontrol
 sleep 3
 
-# --- Start KODI ---
-echo "Starting Kodi service ..."
-kodi &
+#close antimicrox
+kill $(ps ax | grep "antimicrox" | grep -v "grep" | head -n 1 | tr -s ' ' | cut -d ' ' -f2)
 
 #close onscreen keyboard
 kill $(ps ax | grep "onboard" | grep -v "grep" | head -n 1 | tr -s ' ' | cut -d ' ' -f2)
+
+# --- Start KODI ---
+echo "Starting Kodi service ..."
+kodi &

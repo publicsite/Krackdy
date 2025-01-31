@@ -78,8 +78,7 @@ busybox \
 acl \
 kodi kodi-game-libretro kodi-eventclients-kodi-send \
 connman-gtk \
-epiphany-browser onboard at-spi2-core openbox bluez-obexd python3-bluez bluez-firmware bluez \
-libqt5webenginewidgets5 libqt5charts5 \
+firefox-esr antimicro ntp onboard at-spi2-core openbox bluez-obexd python3-bluez bluez-firmware bluez \
 retroarch sakura \
 mupen64plus-ui-console mupen64plus-video-all mupen64plus-rsp-all mupen64plus-input-all mupen64plus-audio-all \
 libslirp0 libpcap-dev
