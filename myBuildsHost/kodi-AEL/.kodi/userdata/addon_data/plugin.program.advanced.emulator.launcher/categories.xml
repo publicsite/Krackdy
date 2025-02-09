@@ -87,7 +87,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Atari 2600</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -155,7 +155,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Game Boy</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -223,7 +223,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Game Boy Advance</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -291,7 +291,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Game Boy Color</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -427,7 +427,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>MAME</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -495,7 +495,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Nintendo 64</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -563,7 +563,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>NES</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -835,7 +835,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>SNES</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
