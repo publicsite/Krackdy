@@ -120,7 +120,7 @@
   <m_name>Gameboy</m_name>
   <m_year>1989</m_year>
   <m_genre>Fourth generation console</m_genre>
-  <m_developer>Nintendo<m_developer>
+  <m_developer>Nintendo</m_developer>
   <m_rating />
   <m_plot>The Game Boy is an 8-bit handheld video game device developed and manufactured by Nintendo. It was released in Japan on April 21, 1989, in North America on July 31, 1989, and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line, and was created by Gunpei Yokoi and Nintendo Research &amp; Development 1 (the same staff who had designed the Game &amp; Watch series as well as several popular games for the Nintendo Entertainment System). Redesigned versions were released in 1996 and 1998, in the form of Game Boy Pocket, and Game Boy Light (Japan only), respectively.</m_plot>
   <platform>Nintendo GameBoy</platform>
@@ -598,7 +598,7 @@
   <m_genre />
   <m_developer />
   <m_rating />
-  <m_plot>Here you can open network connections, for example, to use ethernet or wifi<m_plot />
+  <m_plot>Here you can open network connections, for example, to use ethernet or wifi</m_plot>
   <platform>Unknown</platform>
   <categoryID>cba5ede3ffcc36d176acccd87362ba6c</categoryID>
   <application>/usr/bin/run_connman.sh</application>
@@ -1077,7 +1077,7 @@ The SNES is Nintendo's second home console, following the Nintendo Entertainment
   <m_genre />
   <m_developer />
   <m_rating />
-  <m_plot>Here you can open a web browser to browse the world wide web.<m_plot />
+  <m_plot>Here you can open a web browser to browse the world wide web.</m_plot>
   <platform>Unknown</platform>
   <categoryID>cba5ede3ffcc36d176acccd87362ba6c</categoryID>
   <application>/usr/bin/run_webbrowser.sh</application>
