@@ -699,7 +699,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Xbox</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -767,7 +767,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Playstation</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
@@ -903,7 +903,7 @@
   <default_poster>s_poster</default_poster>
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
-  <Asset_Prefix />
+  <Asset_Prefix>Mega Drive</Asset_Prefix>
   <s_icon />
   <s_fanart />
   <s_banner />
