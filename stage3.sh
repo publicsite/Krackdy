@@ -59,6 +59,7 @@ fi
 
 apt-get -m -y install efibootmgr \
 systemd \
+systemd-resolved \
 default-logind \
 task-english \
 alsa-utils \
