@@ -88,11 +88,11 @@
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Atari 2600</Asset_Prefix>
-  <s_icon />
+  <s_icon>/home/kodi/AEL-artwork/Atari 2600_icon_1.png</s_icon>
   <s_fanart />
   <s_banner />
-  <s_poster />
-  <s_clearlogo />
+  <s_poster>/home/kodi/AEL-artwork/Atari 2600_poster_1.jpg</s_poster>
+  <s_clear_logo>/home/kodi/AEL-artwork/Atari 2600_clearlogo_1.png</s_clearlogo>
   <s_controller />
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
@@ -156,11 +156,11 @@
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Game Boy</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
+  <s_icon>/home/kodi/AEL-artwork/Game Boy_icon_1.png</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/Game Boy_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/Game Boy_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/Game Boy_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/Game Boy_clearlogo_1.png</s_clearlogo>
   <s_controller />
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
@@ -224,11 +224,11 @@
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Game Boy Advance</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
+  <s_icon>/home/kodi/AEL-artwork/Game Boy Advance_icon_1.png</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/Game Boy Advance_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/Game Boy Advance_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/Game Boy Advance_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/Game Boy Advance_clearlogo_1.png</s_clearlogo>
   <s_controller />
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
@@ -292,11 +292,11 @@
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Game Boy Color</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
+  <s_icon>/home/kodi/AEL-artwork/Game Boy Color_icon_1.png</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/Game Boy Color_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/Game Boy Color_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/Game Boy Color_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/Game Boy Color_clearlogo_1.png</s_clearlogo>
   <s_controller />
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
@@ -428,12 +428,12 @@
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>MAME</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
-  <s_controller />
+  <s_icon>/home/kodi/AEL-artwork/MAME_icon_1.png</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/MAME_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/MAME_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/MAME_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/MAME_clearlogo_1.png</s_clearlogo>
+  <s_controller>/home/kodi/AEL-artwork/MAME_controller_1.jpg<s_controller>
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
   <roms_default_fanart>s_fanart</roms_default_fanart>
@@ -496,12 +496,12 @@
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Nintendo 64</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
-  <s_controller />
+  <s_icon>/home/kodi/AEL-artwork/Nintendo 64_icon_1.jpg</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/Nintendo 64_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/Nintendo 64_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/Nintendo 64_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/Nintendo 64_clearlogo_1.png</s_clearlogo>
+  <s_controller>/home/kodi/AEL-artwork/Nintendo 64_controller_1.jpg</s_controller>
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
   <roms_default_fanart>s_fanart</roms_default_fanart>
@@ -530,7 +530,7 @@
   <m_genre>Third generation console</m_genre>
   <m_developer>Nintendo</m_developer>
   <m_rating />
-  <m_plot><plot>The Nintendo Entertainment System (also abbreviated as NES) is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer (also known by the portmanteau abbreviation Famicom and abbreviated as FC) on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System.</m_plot>
+  <m_plot>The Nintendo Entertainment System (also abbreviated as NES) is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer (also known by the portmanteau abbreviation Famicom and abbreviated as FC) on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System.</m_plot>
   <platform>Nintendo NES</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_retroarch.sh</application>
@@ -564,11 +564,11 @@
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>NES</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
+  <s_icon>/home/kodi/AEL-artwork/NES_icon_1.jpg</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/NES_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/NES_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/NES_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/NES_clearlogo_2.png</s_clearlogo>
   <s_controller />
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
@@ -702,10 +702,10 @@ The Xbox, graphically powerful compared to its rivals, featured a standard PC's 
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Xbox</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
+  <s_icon>/home/kodi/AEL-artwork/Xbox_icon_1.jpg</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/Xbox_fanart_1.jpg</s_fanart>
   <s_banner />
-  <s_poster />
+  <s_poster>/home/kodi/AEL-artwork/Xbox_poster_1_RazorFR.jpg</s_poster>
   <s_clearlogo />
   <s_controller />
   <s_trailer />
@@ -770,12 +770,12 @@ The Xbox, graphically powerful compared to its rivals, featured a standard PC's 
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Playstation</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
-  <s_controller />
+  <s_icon>/home/kodi/AEL-artwork/PlayStation_icon_1.png</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/PlayStation_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/PlayStation_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/PlayStation_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/PlayStation_clearlogo_1.jpg</s_clearlogo>
+  <s_controller>/home/kodi/AEL-artwork/PlayStation_controller_2.jpg</s_controller>
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
   <roms_default_fanart>s_fanart</roms_default_fanart>
@@ -839,12 +839,12 @@ The SNES is Nintendo's second home console, following the Nintendo Entertainment
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>SNES</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
-  <s_controller />
+  <s_icon>/home/kodi/AEL-artwork/SNES_icon_1.jpg</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/SNES_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/SNES_banner_1.png</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/SNES_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/SNES_clearlogo_1.png</s_clearlogo>
+  <s_controller>/home/kodi/AEL-artwork/SNES_controller_1.png</s_controller>
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
   <roms_default_fanart>s_fanart</roms_default_fanart>
@@ -907,12 +907,12 @@ The SNES is Nintendo's second home console, following the Nintendo Entertainment
   <default_clearlogo>s_clearlogo</default_clearlogo>
   <default_controller>s_controller</default_controller>
   <Asset_Prefix>Mega Drive</Asset_Prefix>
-  <s_icon />
-  <s_fanart />
-  <s_banner />
-  <s_poster />
-  <s_clearlogo />
-  <s_controller />
+  <s_icon>/home/kodi/AEL-artwork/Mega Drive_icon_1.png</s_icon>
+  <s_fanart>/home/kodi/AEL-artwork/Mega Drive_fanart_1.jpg</s_fanart>
+  <s_banner>/home/kodi/AEL-artwork/Mega Drive_banner_1.jpg</s_banner>
+  <s_poster>/home/kodi/AEL-artwork/Mega Drive_poster_1.jpg</s_poster>
+  <s_clearlogo>/home/kodi/AEL-artwork/Mega Drive_clearlogo_1.png</s_clearlogo>
+  <s_controller>/home/kodi/Mega Drive_controller_1.jpg</s_controller>
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
   <roms_default_fanart>s_fanart</roms_default_fanart>
