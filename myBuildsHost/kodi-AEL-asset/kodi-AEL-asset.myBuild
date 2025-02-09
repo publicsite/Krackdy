@@ -34,7 +34,10 @@ chown -R kodi:kodi "/home/kodi/.kodi"
 #cp -a "${myBuildExtractDest}/plugin.program.${actualname}.dev-${version}/plugin.program.AEL" "/home/kodi/.kodi/addons/"
 #cp -a "${myBuildExtractDest}/${filename}" "/home/kodi/.kodi/addons/plugin.program.advanced.emulator.launcher"
 
-thedest="/home/kodi/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/"
+thedest="/home/kodi/AEL-artwork"
+
+mkdir -p "$thedest"
+
 cp -a "${myBuildExtractDest}/${filename}/Launcher assets Nintendo/Game Boy"*".jpg" "$thedest"
 cp -a "${myBuildExtractDest}/${filename}/Launcher assets Nintendo/Game Boy"*".png" "$thedest"
 cp -a "${myBuildExtractDest}/${filename}/Launcher assets Nintendo/Nintendo 64"*".jpg" "$thedest"
