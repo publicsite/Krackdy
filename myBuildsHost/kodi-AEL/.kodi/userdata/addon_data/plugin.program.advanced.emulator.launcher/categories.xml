@@ -92,7 +92,7 @@
   <s_fanart />
   <s_banner />
   <s_poster>/home/kodi/AEL-artwork/Atari 2600_poster_1.jpg</s_poster>
-  <s_clear_logo>/home/kodi/AEL-artwork/Atari 2600_clearlogo_1.png</s_clearlogo>
+  <s_clearlogo>/home/kodi/AEL-artwork/Atari 2600_clearlogo_1.png</s_clearlogo>
   <s_controller />
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
@@ -433,7 +433,7 @@
   <s_banner>/home/kodi/AEL-artwork/MAME_banner_1.png</s_banner>
   <s_poster>/home/kodi/AEL-artwork/MAME_poster_1.jpg</s_poster>
   <s_clearlogo>/home/kodi/AEL-artwork/MAME_clearlogo_1.png</s_clearlogo>
-  <s_controller>/home/kodi/AEL-artwork/MAME_controller_1.jpg<s_controller>
+  <s_controller>/home/kodi/AEL-artwork/MAME_controller_1.jpg</s_controller>
   <s_trailer />
   <roms_default_icon>s_boxfront</roms_default_icon>
   <roms_default_fanart>s_fanart</roms_default_fanart>
@@ -873,7 +873,7 @@ The SNES is Nintendo's second home console, following the Nintendo Entertainment
   <m_genre>Fourth generation console</m_genre>
   <m_developer>SEGA</m_developer>
   <m_rating />
-  <m_plot>The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe. Designed by an R&D team supervised by Hideki Sato and Masami Ishikawa, the hardware was adapted from Sega's System 16 arcade board, centered on a Motorola 68000 processor as a primary CPU and a Zilog Z80 as a secondary processor. The system supports a library of more than 900 games created both by Sega and a wide array of third-party publishers and delivered on ROM-based cartridges. It can play Master System games when the separately sold Power Base Converter is inserted.</m_plot>
+  <m_plot>The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe. Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the hardware was adapted from Sega's System 16 arcade board, centered on a Motorola 68000 processor as a primary CPU and a Zilog Z80 as a secondary processor. The system supports a library of more than 900 games created both by Sega and a wide array of third-party publishers and delivered on ROM-based cartridges. It can play Master System games when the separately sold Power Base Converter is inserted.</m_plot>
   <platform>Sega Mega Drive</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_retroarch.sh</application>
