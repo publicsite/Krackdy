@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <advanced_emulator_launcher version="1">
 <control>
-  <update_timestamp>1726000039.3605359</update_timestamp>
+  <update_timestamp>1739656664.5304942</update_timestamp>
 </control>
 <category>
   <id>0a5282c47189b889227a1568f0a9d85b</id>
@@ -48,13 +48,81 @@
   <s_trailer />
 </category>
 <launcher>
+  <id>3a2565f97a4d79fba9273f4d775d4c7b</id>
+  <m_name>AntiMicroX Setup</m_name>
+  <m_year />
+  <m_genre />
+  <m_developer />
+  <m_rating />
+  <m_plot />
+  <platform>Unknown</platform>
+  <categoryID>cba5ede3ffcc36d176acccd87362ba6c</categoryID>
+  <application>/usr/bin/run_antimicro.sh</application>
+  <args />
+  <rompath />
+  <romext />
+  <romextrapath />
+  <finished>False</finished>
+  <toggle_window>False</toggle_window>
+  <non_blocking>False</non_blocking>
+  <multidisc>True</multidisc>
+  <roms_base_noext />
+  <audit_state>Audit OFF</audit_state>
+  <audit_auto_dat_file />
+  <audit_custom_dat_file />
+  <audit_display_mode>All ROMs</audit_display_mode>
+  <launcher_display_mode>Flat mode</launcher_display_mode>
+  <num_roms>0</num_roms>
+  <num_parents>0</num_parents>
+  <num_clones>0</num_clones>
+  <num_have>0</num_have>
+  <num_miss>0</num_miss>
+  <num_unknown>0</num_unknown>
+  <num_extra>0</num_extra>
+  <timestamp_launcher>1739656664.5303764</timestamp_launcher>
+  <timestamp_report>0.0</timestamp_report>
+  <default_icon>s_icon</default_icon>
+  <default_fanart>s_fanart</default_fanart>
+  <default_banner>s_banner</default_banner>
+  <default_poster>s_poster</default_poster>
+  <default_clearlogo>s_clearlogo</default_clearlogo>
+  <default_controller>s_controller</default_controller>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+  <roms_default_icon>s_boxfront</roms_default_icon>
+  <roms_default_fanart>s_fanart</roms_default_fanart>
+  <roms_default_banner>s_banner</roms_default_banner>
+  <roms_default_poster>s_flyer</roms_default_poster>
+  <roms_default_clearlogo>s_clearlogo</roms_default_clearlogo>
+  <ROM_asset_path />
+  <path_3dbox />
+  <path_title />
+  <path_snap />
+  <path_boxfront />
+  <path_boxback />
+  <path_cartridge />
+  <path_fanart />
+  <path_banner />
+  <path_clearlogo />
+  <path_flyer />
+  <path_map />
+  <path_manual />
+  <path_trailer />
+</launcher>
+<launcher>
   <id>d2226a45a1b100a0fc6e59d49f21cd37</id>
   <m_name>Atari 2600</m_name>
   <m_year>1977</m_year>
   <m_genre>Second generation console</m_genre>
   <m_developer>Atari</m_developer>
   <m_rating />
-  <m_plot>The Atari 2600 (or Atari VCS before 1982) is a home video game console released on September 11, 1977 by Atari, Inc. It is credited with popularizing the use of microprocessor-based hardware and ROM cartridges containing game code, a format first used with the Fairchild Channel F video game console in 1976. This format contrasts with the older model of having non-microprocessor dedicated hardware, which could only play the games which were physically built into the unit. The console was originally sold as the Atari VCS, an abbreviation for Video Computer System. Following the release of the Atari 5200 in 1982, the VCS was renamed to the "Atari 2600", after the unit's Atari part number, CX2600. The 2600 was typically bundled with two joystick controllers, a conjoined pair of paddle controllers, and a game cartridge: initially Combat, and later Pac-Man.</m_plot>
+  <m_plot>The Atari 2600 (or Atari VCS before 1982) is a home video game console released on September 11, 1977 by Atari, Inc. It is credited with popularizing the use of microprocessor-based hardware and ROM cartridges containing game code, a format first used with the Fairchild Channel F video game console in 1976. This format contrasts with the older model of having non-microprocessor dedicated hardware, which could only play the games which were physically built into the unit. The console was originally sold as the Atari VCS, an abbreviation for Video Computer System. Following the release of the Atari 5200 in 1982, the VCS was renamed to the &quot;Atari 2600&quot;, after the unit&apos;s Atari part number, CX2600. The 2600 was typically bundled with two joystick controllers, a conjoined pair of paddle controllers, and a game cartridge: initially Combat, and later Pac-Man.</m_plot>
   <platform>Atari 2600</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_stella.sh</application>
@@ -190,7 +258,7 @@
   <m_genre>Sixth generation console</m_genre>
   <m_developer>Nintendo</m_developer>
   <m_rating />
-  <m_plot>The Game Boy Advance, often shortened to GBA, is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo. It is the successor to the Game Boy Color. Nintendo's competitors in the handheld market were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors' best efforts, Nintendo maintained a majority market share with the Game Boy Advance. As of June 30, 2010, the Game Boy Advance series has sold 81.51 million units worldwide. Its successor, the Nintendo DS, was released in November 2004.</m_plot>
+  <m_plot>The Game Boy Advance, often shortened to GBA, is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo. It is the successor to the Game Boy Color. Nintendo&apos;s competitors in the handheld market were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors&apos; best efforts, Nintendo maintained a majority market share with the Game Boy Advance. As of June 30, 2010, the Game Boy Advance series has sold 81.51 million units worldwide. Its successor, the Nintendo DS, was released in November 2004.</m_plot>
   <platform>Nintendo GameBoy Advance</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_retroarch.sh</application>
@@ -258,7 +326,7 @@
   <m_genre>Fifth generation console</m_genre>
   <m_developer>Nintendo</m_developer>
   <m_rating />
-  <m_plot>The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo. It was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy. The Game Boy Color, as suggested by the name, features a color screen, but no backlight. It is slightly thicker and taller than the Game Boy Pocket, which is a redesigned Game Boy released in 1996. As with the original Game Boy, it has an 8-bit processor and the custom Zilog Z80 central processing unit (CPU). The original name (with its American English spelling of "color") remained unchanged even in markets where "colour" was the accepted English spelling.</m_plot>
+  <m_plot>The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo. It was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy. The Game Boy Color, as suggested by the name, features a color screen, but no backlight. It is slightly thicker and taller than the Game Boy Pocket, which is a redesigned Game Boy released in 1996. As with the original Game Boy, it has an 8-bit processor and the custom Zilog Z80 central processing unit (CPU). The original name (with its American English spelling of &quot;color&quot;) remained unchanged even in markets where &quot;colour&quot; was the accepted English spelling.</m_plot>
   <platform>Nintendo GameBoy Color</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_retroarch.sh</application>
@@ -394,7 +462,7 @@
   <m_genre>Arcade, console and computer emulator</m_genre>
   <m_developer>Nicola Salmoria and the MAME Team</m_developer>
   <m_rating />
-  <m_plot>MAME (an acronym of Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten. The aim of MAME is to be a reference to the inner workings of the emulated arcade machines; the ability to actually play the games is considered "a nice side effect". Joystiq has listed MAME as an application that every gamer should have. The first public MAME release (0.1) was on February 5, 1997, by Nicola Salmoria. The emulator now supports over seven thousand unique games and ten thousand actual ROM image sets, though not all of the supported games are playable. MESS, an emulator for many video game consoles and computer systems, based on the MAME core, has been integrated into MAME in 2015.</m_plot>
+  <m_plot>MAME (an acronym of Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten. The aim of MAME is to be a reference to the inner workings of the emulated arcade machines; the ability to actually play the games is considered &quot;a nice side effect&quot;. Joystiq has listed MAME as an application that every gamer should have. The first public MAME release (0.1) was on February 5, 1997, by Nicola Salmoria. The emulator now supports over seven thousand unique games and ten thousand actual ROM image sets, though not all of the supported games are playable. MESS, an emulator for many video game consoles and computer systems, based on the MAME core, has been integrated into MAME in 2015.</m_plot>
   <platform>MAME</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_retroarch.sh</application>
@@ -462,7 +530,7 @@
   <m_genre>Fifth generation console</m_genre>
   <m_developer>Nintendo</m_developer>
   <m_rating />
-  <m_plot>The Nintendo 64, stylized as NINTENDO64 and often referred to as N64, is Nintendo's third home video game console for the international market. Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America, March 1997 in Europe and Australia, September 1997 in France and December 1997 in Brazil. It is the industry's last major home console to use the cartridge as its primary storage format, although current handheld systems (such as the PlayStation Vita and Nintendo 3DS) also use cartridges. While the Nintendo 64 was succeeded by Nintendo's MiniDVD-based GameCube in November 2001, the consoles remained available until the system was retired in late 2003.</m_plot>
+  <m_plot>The Nintendo 64, stylized as NINTENDO64 and often referred to as N64, is Nintendo&apos;s third home video game console for the international market. Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America, March 1997 in Europe and Australia, September 1997 in France and December 1997 in Brazil. It is the industry&apos;s last major home console to use the cartridge as its primary storage format, although current handheld systems (such as the PlayStation Vita and Nintendo 3DS) also use cartridges. While the Nintendo 64 was succeeded by Nintendo&apos;s MiniDVD-based GameCube in November 2001, the consoles remained available until the system was retired in late 2003.</m_plot>
   <platform>Nintendo 64</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_mupen64.sh</application>
@@ -666,9 +734,7 @@
   <m_genre>Sixth generation console</m_genre>
   <m_developer>Microsoft</m_developer>
   <m_rating />
-  <m_plot>The Xbox is a home video game console and the first installment in the Xbox series of consoles manufactured by Microsoft. It was released on November 15, 2001, in North America, followed by Australia, Europe and Japan in 2002. It was Microsoft's first foray into the gaming console market. The sixth-generation console competed with Sony's PlayStation 2 and the Nintendo GameCube. It was also the first console produced by an American company since the Atari Jaguar ceased production in 1996.
-
-The Xbox, graphically powerful compared to its rivals, featured a standard PC's 733 MHz Intel Pentium III processor. It was also noted for its PC-like size and weight, and was first console to feature a built-in hard disk. In November 2002, Microsoft launched Xbox Live, a fee-based online gaming service that enabled subscribers to download new content and connect with other players through a broadband connection. Unlike other online services from Sega and Sony, Xbox Live had support in the original console design through an integrated Ethernet port.</m_plot>
+  <m_plot>The Xbox is a home video game console and the first installment in the Xbox series of consoles manufactured by Microsoft. It was released on November 15, 2001, in North America, followed by Australia, Europe and Japan in 2002. It was Microsoft&apos;s first foray into the gaming console market. The sixth-generation console competed with Sony&apos;s PlayStation 2 and the Nintendo GameCube. It was also the first console produced by an American company since the Atari Jaguar ceased production in 1996.&#10;&#10;The Xbox, graphically powerful compared to its rivals, featured a standard PC&apos;s 733 MHz Intel Pentium III processor. It was also noted for its PC-like size and weight, and was first console to feature a built-in hard disk. In November 2002, Microsoft launched Xbox Live, a fee-based online gaming service that enabled subscribers to download new content and connect with other players through a broadband connection. Unlike other online services from Sega and Sony, Xbox Live had support in the original console design through an integrated Ethernet port.</m_plot>
   <platform>Microsoft Xbox</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_xemu.sh</application>
@@ -804,8 +870,7 @@ The Xbox, graphically powerful compared to its rivals, featured a standard PC's 
   <m_genre>Fourth generation console</m_genre>
   <m_developer>Nintendo</m_developer>
   <m_rating />
-  <m_plot>The Super Nintendo Entertainment System (officially abbreviated the Super NES or SNES, and commonly shortened to Super Nintendo) is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America. In Japan, the system is called the Super Famicom, or SFC for short.
-The SNES is Nintendo's second home console, following the Nintendo Entertainment System (NES). The console introduced advanced graphics and sound capabilities compared with other consoles at the time. Additionally, development of a variety of enhancement chips (which were integrated on game circuit boards) helped to keep it competitive in the marketplace.</m_plot>
+  <m_plot>The Super Nintendo Entertainment System (officially abbreviated the Super NES or SNES, and commonly shortened to Super Nintendo) is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America. In Japan, the system is called the Super Famicom, or SFC for short.&#10;The SNES is Nintendo&apos;s second home console, following the Nintendo Entertainment System (NES). The console introduced advanced graphics and sound capabilities compared with other consoles at the time. Additionally, development of a variety of enhancement chips (which were integrated on game circuit boards) helped to keep it competitive in the marketplace.</m_plot>
   <platform>Nintendo SNES</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_retroarch.sh</application>
@@ -873,7 +938,7 @@ The SNES is Nintendo's second home console, following the Nintendo Entertainment
   <m_genre>Fourth generation console</m_genre>
   <m_developer>SEGA</m_developer>
   <m_rating />
-  <m_plot>The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega's third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe. Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the hardware was adapted from Sega's System 16 arcade board, centered on a Motorola 68000 processor as a primary CPU and a Zilog Z80 as a secondary processor. The system supports a library of more than 900 games created both by Sega and a wide array of third-party publishers and delivered on ROM-based cartridges. It can play Master System games when the separately sold Power Base Converter is inserted.</m_plot>
+  <m_plot>The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega&apos;s third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe. Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the hardware was adapted from Sega&apos;s System 16 arcade board, centered on a Motorola 68000 processor as a primary CPU and a Zilog Z80 as a secondary processor. The system supports a library of more than 900 games created both by Sega and a wide array of third-party publishers and delivered on ROM-based cartridges. It can play Master System games when the separately sold Power Base Converter is inserted.</m_plot>
   <platform>Sega Mega Drive</platform>
   <categoryID>0a5282c47189b889227a1568f0a9d85b</categoryID>
   <application>/usr/bin/run_retroarch.sh</application>
