@@ -12,8 +12,8 @@ echo "Running antimicrox ..."
 antimicrox --hidden
 echo "Running onscreen keyboard"
 onboard &
-echo "Running sakura ..."
-sakura
+echo "Running terminal emulator ..."
+xfce4-terminal
 sleep 3
 
 #close antimicrox
