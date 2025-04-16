@@ -80,7 +80,7 @@ acl \
 kodi kodi-game-libretro kodi-eventclients-kodi-send \
 connman-gtk \
 firefox-esr antimicro ntp onboard at-spi2-core openbox bluez-obexd python3-bluez bluez-firmware bluez \
-retroarch sakura \
+retroarch xfce4-terminal \
 mupen64plus-ui-console mupen64plus-video-all mupen64plus-rsp-all mupen64plus-input-all mupen64plus-audio-all \
 libslirp0 libpcap-dev
 
