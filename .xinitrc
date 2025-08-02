@@ -1,3 +1,3 @@
 #!/bin/busybox sh
-kodi &
+kodi -fs &
 exec openbox-session
