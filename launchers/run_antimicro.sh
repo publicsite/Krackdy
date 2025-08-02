@@ -19,5 +19,5 @@ kill $(ps ax | grep "onboard" | grep -v "grep" | head -n 1 | tr -s ' ' | cut -d 
 
 # --- Start KODI ---
 echo "Starting Kodi service ..."
-kodi &
+kodi -fs &
 
