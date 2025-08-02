@@ -17,4 +17,4 @@ sleep 3
 
 # --- Start KODI ---
 echo "Starting Kodi service ..."
-kodi &
+kodi -fs &
