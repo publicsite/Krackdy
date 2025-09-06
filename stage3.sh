@@ -137,7 +137,8 @@ firmware-siano \
 firmware-ti-connectivity \
 firmware-zd1211 \
 intel-microcode \
-tzdata
+tzdata \
+ntpsec
 
 #native linux games that use gamepad (list is 7 years old but nm)
 apt-get -m -y install a7xpg \
