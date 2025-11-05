@@ -1,6 +1,9 @@
 #!/bin/sh
 #stage3 :- customises a vanilla rootfs
 
+OLD_UMASK="$(umask)"
+umask 0022
+
 if [ "$1" = "" ]; then
 	echo "Argv1: <arch>"
 	echo "eg. \"i386\""
@@ -323,5 +326,8 @@ fi
 
 #unmount stuff
 umount /proc
+
+umask "${OLD_UMASK}"
+
 umount /sys
 umount /dev/pts
