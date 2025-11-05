@@ -1,5 +1,8 @@
 #!/bin/sh
 
+OLD_UMASK="$(umask)"
+umask 0022
+
 #myBuild options
 
 #environment variables
@@ -50,3 +53,5 @@ export PREFIX='/usr' #the location to install to
 ##"${myBuildsDir}/game.libretro.mupen64plus-nx/game.libretro.mupen64plus-nx.myBuild" get
 ##"${myBuildsDir}/game.libretro.mupen64plus-nx/game.libretro.mupen64plus-nx.myBuild" extract
 ##"${myBuildsDir}/game.libretro.mupen64plus-nx/game.libretro.mupen64plus-nx.myBuild" build
+
+umask "${OLD_UMASK}"
