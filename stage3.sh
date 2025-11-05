@@ -326,8 +326,7 @@ fi
 
 #unmount stuff
 umount /proc
-
-umask "${OLD_UMASK}"
-
 umount /sys
 umount /dev/pts
+
+umask "${OLD_UMASK}"
