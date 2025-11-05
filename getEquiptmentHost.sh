@@ -1,6 +1,9 @@
 #!/bin/sh
 #myBuild options
 
+OLD_UMASK="$(umask)"
+umask 0022
+
 #environment variables
 export myBuildHome="$1"
 export myBuildHelpersDir="${myBuildHome}/helpers"
@@ -37,3 +40,5 @@ export PREFIX='/usr' #the location to install to
 "${myBuildHome}"/myBuildsHost/kodi-AEL/kodi-AEL.myBuild build
 ##"${myBuildHome}"/myBuildsHost/kodi-settings/kodi-settings.myBuild get
 ##"${myBuildHome}"/myBuildsHost/kodi-settings/kodi-settings.myBuild extract
+
+umask "${OLD_UMASK}"
