@@ -1,4 +1,8 @@
 #!/bin/sh
+
+OLD_UMASK="$(umask)"
+umask 0022
+
 #stage1 :- downloads a iso and extracts the root filesystem, then runs the later stages.
 
 if [ "$1" = "" ]; then
@@ -182,3 +186,5 @@ sudo chmod +x "${thepwd}/mountpoint/workdir/initOverlay.sh"
 sudo cp installToHDD.sh "${thepwd}/mountpoint/workdir/"
 sudo chmod +x "${thepwd}/mountpoint/workdir/installToHDD.sh"
 sudo chroot "${thepwd}/mountpoint" /workdir/stage4.sh "${THEARCH}"
+
+umask "${OLD_UMASK}"
