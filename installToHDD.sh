@@ -1,5 +1,8 @@
 #!/bin/sh
 
+OLD_UMASK="$(umask)"
+umask 0022
+
 thefdisk="busybox fdisk"
 thechroot="/usr/sbin/chroot"
 themkfsext="/sbin/mkfs.ext4"
@@ -696,3 +699,5 @@ umount tempmount
 cd
 
 rm -rf /tmp/installToHDD
+
+umask "${OLD_UMASK}"
