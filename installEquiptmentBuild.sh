@@ -1,4 +1,8 @@
 #!/bin/sh
+
+OLD_UMASK="$(umask)"
+umask 0022
+
 #myBuild options
 
 #environment variables
@@ -41,3 +45,5 @@ export LIBGL_ALWAYS_SOFTWARE=1
 "${myBuildsDir}/libretro-super/libretro-super.myBuild" install
 
 ##"${myBuildsDir}/game.libretro.mupen64plus-nx/game.libretro.mupen64plus-nx.myBuild" install
+
+umask "${OLD_UMASK}"
