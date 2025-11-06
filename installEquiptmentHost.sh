@@ -1,4 +1,8 @@
 #!/bin/sh
+
+OLD_UMASK="$(umask)"
+umask 0022
+
 #myBuild options
 
 #environment variables
@@ -37,3 +41,5 @@ export LIBGL_ALWAYS_SOFTWARE=1
 ##"${myBuildHome}"/myBuildsHost/firefox-fx-osk/firefox-fx-osk.myBuild install
 "${myBuildHome}"/myBuildsHost/kodi-AEL/kodi-AEL.myBuild install
 ##"${myBuildHome}"/myBuildsHost/kodi-settings/kodi-settings.myBuild install
+
+umask "${OLD_UMASK}"
