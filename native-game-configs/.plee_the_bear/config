@@ -1,0 +1,21 @@
+# Configuration of the screen.
+[Video]
+# Do we use the fullscreen?
+fullscreen = true
+
+# Configuration of the sound system.
+[Audio]
+# Do we play the sounds?
+sound_on = true
+# Do we play the music?
+music_on = true
+# Volume of the sounds.
+sound_volume = 1
+# Volume of the the music.
+music_volume = 1
+
+# Miscellaneous options of the game.
+[Gameplay]
+# Tell if the players can harm each other.
+friendly_fire = true
+

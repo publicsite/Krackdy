@@ -69,6 +69,8 @@ sudo mkdir -p "${thepwd}/mountpoint/workdir/rootfs/etc/skel/.config/gtk-3.0"
 sudo cp -a "${thepwd}/gtk-configs/gtk.css" "${thepwd}/mountpoint/workdir/rootfs/etc/skel/.config/gtk-3.0/"
 sudo cp -a "${thepwd}/gtk-configs/settings.ini" "${thepwd}/mountpoint/workdir/rootfs/etc/skel/.config/gtk-3.0/"
 sudo cp -a "${thepwd}/gtk-configs/.gtkrc-2.0" "${thepwd}/mountpoint/workdir/rootfs/etc/skel/"
+sudo cp -a "${thepwd}/native-game-configs/.neverball" "${thepwd}/mountpoint/workdir/rootfs/etc/skel/"
+sudo cp -a "${thepwd}/native-game-configs/.plee_the_bear" "${thepwd}/mountpoint/workdir/rootfs/etc/skel/"
 
 #copy some config files to /home/kodi in the inner rootfs
 sudo mkdir -p "${thepwd}/mountpoint/workdir/rootfs/home/kodi/Desktop"
@@ -83,7 +85,8 @@ sudo mkdir -p "${thepwd}/mountpoint/workdir/rootfs/home/kodi/.config/gtk-3.0"
 sudo cp -a "${thepwd}/gtk-configs/gtk.css" "${thepwd}/mountpoint/workdir/rootfs/home/kodi/.config/gtk-3.0/"
 sudo cp -a "${thepwd}/gtk-configs/settings.ini" "${thepwd}/mountpoint/workdir/rootfs/home/kodi/.config/gtk-3.0/"
 sudo cp -a "${thepwd}/gtk-configs/.gtkrc-2.0" "${thepwd}/mountpoint/workdir/rootfs/home/kodi/"
-
+sudo cp -a "${thepwd}/native-game-configs/.neverball" "${thepwd}/mountpoint/workdir/rootfs/home/kodi/"
+sudo cp -a "${thepwd}/native-game-configs/.plee_the_bear" "${thepwd}/mountpoint/workdir/rootfs/home/kodi/"
 
 #copy some config files to /root in the inner rootfs
 sudo mkdir -p "${thepwd}/mountpoint/workdir/rootfs/root/Desktop"

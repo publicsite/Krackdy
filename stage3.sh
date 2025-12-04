@@ -164,7 +164,6 @@ solarwolf \
 supertux \
 tecnoballz \
 xblast-tnt \
-xjokes \
 supertuxkart
 
 ##libretro stuff
@@ -263,29 +262,29 @@ mkdir /home/kodi/AEL-ROMs
 
 mkdir /home/kodi/AEL-ROMs/linux-native
 cd /home/kodi/AEL-ROMs/linux-native
-printf "/usr/games/a7xpg" > a7xpg.linux-native
-printf "/usr/games/dangen" > dangen.linux-native
+printf "/usr/games/a7xpg -fullscreen" > a7xpg.linux-native
+printf "/usr/games/dangen --full-screen" > dangen.linux-native
 #which defendguin > defendguin.linux-native
 printf "/usr/games/dodgindiamond2" > dodgindiamond2.linux-native
-printf "/usr/games/dreamchess" > dreamchess.linux-native
+printf "/usr/games/dreamchess --fullscreen" > dreamchess.linux-native
 printf "/usr/games/freedink" > freedink.linux-native
-printf "/usr/games/jumpnbump" > jumpnbump.linux-native
+printf "/usr/games/jumpnbump -fullscreen" > jumpnbump.linux-native
 printf "/usr/games/marsshooter" > marsshooter.linux-native
 printf "/usr/games/neverball" > neverball.linux-native
 printf "/usr/games/neverputt" > neverputt.linux-native
 printf "/usr/games/noiz2sa" > noiz2sa.linux-native
 printf "/usr/games/pangzero" > pangzero.linux-native
-printf "/usr/games/parsec47" > parsec47.linux-native
+printf "/usr/games/parsec47 -fullscreen" > parsec47.linux-native
 printf "/usr/games/plee-the-bear" > plee-the-bear.linux-native
-printf "/usr/games/powermanga" > powermanga.linux-native
-printf "/usr/games/rrootage" > rrootage.linux-native
-printf "/usr/games/seahorse-adventures" > seahorse-adventures.linux-native
+printf "/usr/games/powermanga --fullscreen" > powermanga.linux-native
+printf "/usr/games/rrootage -fullscreen" > rrootage.linux-native
+printf "/usr/games/seahorse-adventures -full" > seahorse-adventures.linux-native
 printf "/usr/games/solarwolf" > solarwolf.linux-native
-printf "/usr/games/supertux2" > supertux.linux-native
+printf "/usr/games/supertux2 --fullscreen" > supertux.linux-native
 printf "/usr/games/tecnoballz" > tecnoballz.linux-native
 printf "/usr/games/xblast-tnt" > xblast-tnt.linux-native
-which xjokes > xjokes.linux-native
-printf "/usr/games/supertuxkart" > supertuxkart.linux-native
+#which xjokes > xjokes.linux-native
+printf "/usr/games/supertuxkart --fullscreen" > supertuxkart.linux-native
 
 mkdir /home/kodi/AEL-ROMs/microsoft-og-xbox
 mkdir /home/kodi/AEL-ROMs/atari-2600

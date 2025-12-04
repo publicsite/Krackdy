@@ -1,0 +1,15 @@
+[Action/Joystick]
+change_object = joystick 0 button 3
+crouch = joystick 0 down
+get_camera = joystick 0 button 5
+jump = joystick 0 button 4
+look_upward = joystick 0 up
+move_left = joystick 0 left
+move_right = joystick 0 right
+slap = joystick 0 button 1
+throw_stone = joystick 0 button 2
+
+[GUI/Joystick]
+pause = joystick 0 button 7
+talk = joystick 0 button 6
+
