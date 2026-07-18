@@ -132,7 +132,6 @@ firmware-misc-nonfree \
 firmware-myricom \
 firmware-netronome \
 firmware-netxen \
-firmware-qcom-media \
 firmware-qlogic \
 firmware-realtek \
 firmware-samsung \
